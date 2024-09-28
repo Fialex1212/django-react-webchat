@@ -1,0 +1,39 @@
+.title{
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 40px;
+    background-color: rgb(41, 41, 41);
+    width: 300px;
+    margin: 0 auto;
+    row-gap: 30px;
+}
+
+.form__input{
+    padding: 10px 20px;
+    background-color: rgb(32, 32, 32);
+    border-radius: 10px;
+}
+
+.form__redirect{
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.form__button{
+    padding: 10px 20px;
+    background-color: rgb(12, 12, 12);
+    border-radius: 10px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.form__button:hover{
+    background-color: rgb(32, 32, 32);
+    transition: .3s;
+}
